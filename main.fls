@@ -1,4 +1,4 @@
-PWD /Users/koki/卒業研究/卒業論文_学会発表原稿_Tex/2019年秋季研究発表会原稿/Manuscript
+PWD /Users/koki/Manuscript_Tex
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf.cnf
@@ -115,9 +115,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT main.dvi
 INPUT image/danger_result.png
 INPUT extractbb -B cropbox -O image/danger_result.png
-OUTPUT main.dvi
 INPUT image/speed_result.png
 INPUT extractbb -B cropbox -O image/speed_result.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
