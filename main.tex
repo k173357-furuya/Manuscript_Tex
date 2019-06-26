@@ -25,17 +25,19 @@
 %\usepackage{citesort}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\floatsep{0truemm} %set space size between figure and figure
 % 行間を標準よりも広くしたい場合には，ここの数字を大きくして
 % ください．逆に狭くしたい場合には，数字を小さくしてください．
 \renewcommand{\baselinestretch}{1.0}
 
 \makeatletter
 \if@twocolumn
-  \renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+  \renewcommand{\paragraph}{\@startsection{paragraph}{2}{\z@}%
     {\z@}{-1zw}% 改行せず 1zw のアキ
     {\normalfont\normalsize\headfont}}
 \else
-  \renewcommand{\paragraph}{\@startsection{paragraph}{4}{\z@}%
+  \renewcommand{\paragraph}{\@startsection{paragraph}{2}{\z@}%
     {0.5\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
     {-1zw}% 改行せず 1zw のアキ
     {\normalfont\normalsize\headfont}}
@@ -141,7 +143,7 @@ SHINJUKU, Hanako (Saikyo Institute of Technology)}
 \subsection{危険度評価実験の結果}\label{danger_Rst}
 %-----------------------------------------------------------------
 図\ref{fig:danger_result}は交通音の危険度評価実験における加工条件や速度ごとの危険度評価の平均値を示している.
-図\ref{fig:danger_result}から平均音圧が同じである場合, 健聴条件, 音圧低下条件, 難聴条件の順に危険度が高いと判断されたことが分かる. 交通音の危険度評価における老人性難聴の影響を統計的に検討するために, 加工条件と音圧条件を要因とした有意水準5\%の二要因分散分析を行った. その結果, 加工条件について主効果が認められ[$F(2, 18) = 377.13$, $p<0.0001$], 音圧条件についても主効果が認められた[$F(1, 9) = 367.60$, $p<0.0001$]. さらに, 加工条件と音圧条件の交互作用が有意確率5\%で認められた[$F(2, 18) = 4.95$, $ p=0.0194$]. 加工条件と音圧条件との組み合わせ6種を要因としてShafferのMSRB（Modified Sequentially Rejective Bonferroni）法による検定を有意水準5\%で適用したところ, 全ての要因間に有意差が認められた.
+図\ref{fig:danger_result}から平均音圧が同じである場合, 健聴条件, 音圧低下条件, 模擬難聴条件の順に危険度が高いと判断されたことが分かる. 交通音の危険度評価における老人性難聴の影響を統計的に検討するために, 加工条件と音圧条件を要因とした有意水準5\%の二要因分散分析を行った. その結果, 加工条件について主効果が認められ[$F(2, 18) = 377.13$, $p<0.0001$], 音圧条件についても主効果が認められた[$F(1, 9) = 367.60$, $p<0.0001$]. さらに, 加工条件と音圧条件の交互作用が有意確率5\%で認められた[$F(2, 18) = 4.95$, $ p=0.0194$]. 加工条件と音圧条件との組み合わせ6種を要因としてShafferのMSRB（Modified Sequentially Rejective Bonferroni）法による検定を有意水準5\%で適用したところ, 全ての要因間に有意差が認められた.
 %また, 速度(60, 100~km/h)と加工条件を要因として二要因分散分析($\alpha=0.05$)を行ったところ, 加工条件と速度条件の主効果が有意であった.
 \par
 次に, 車の走行速度による危険度評価への影響を検証するため, 車の走行速度が60, 100~km/hである刺激音の結果を抽出して解析を行った. 60, 100~km/hの速度を抽出した理由は, どちらも全体に占める標本数の割合が大きくかつ標本数にあまり差がない組み合わせであるためである(60~km/h N=1440, 100~km/h N=1200).速度, 加工条件, 音圧条件を要因とした有意水準5\%の三要因分散分析を実施したところ, それら全ての要因の主効果が有意であり[速度 : $F(1, 9) = 34.65$,  $p=0.0002$  加工条件 : $F(2, 18) = 77.33$, $p<0.0001$, 音圧条件 : $F(1, 9) = 446.80$, $p<0.0001$], 加工条件と音圧条件の交互作用が認められた[$F(2, 18) = 5.96$, $p=0.0103$].
@@ -175,7 +177,7 @@ SHINJUKU, Hanako (Saikyo Institute of Technology)}
   \end{center}
 \end{figure}
 
-\vspace{-3truemm}
+\vspace{-12truemm}
 
 %危険度評価実験の速度ごとの値
 \begin{figure}[H]
@@ -186,7 +188,7 @@ SHINJUKU, Hanako (Saikyo Institute of Technology)}
   \end{center}
 \end{figure}
 
-\vspace{-3truemm}
+\vspace{-8truemm}
 
 
 %-----------------------------------------------------------------
