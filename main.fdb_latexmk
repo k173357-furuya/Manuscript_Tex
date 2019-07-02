@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1561525628 "main.dvi" "main.pdf" "main" 1561533715
-  "main.dvi" 1561525627 15980 c7d7781b0f40851cc8b8039ca5fa82bb "latex"
+["dvipdf"] 1562051925 "main.dvi" "main.pdf" "main" 1562051926
+  "main.dvi" 1562051925 15692 a89803b7a00a7b32b9a76fa9cbe1447f "latex"
   (generated)
   "main.pdf"
-["latex"] 1561525627 "main.tex" "main.dvi" "main" 1561533715
+["latex"] 1562051924 "main.tex" "main.dvi" "main" 1562051926
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -62,10 +62,10 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "image/danger_result.png" 1560378068 65174 525605d2c6da51a096363ca247ad70ca ""
   "image/speed_result.png" 1560378068 69052 5e2afbc4ab1d2ab7cea9bb8c4f76cab2 ""
-  "main.aux" 1561525627 2086 ad2c17e00f2621fcaa7ef47d3c82ba62 ""
-  "main.tex" 1561533715 22456 51f94c3901cdb0089a025957a4ff814c ""
+  "main.aux" 1562051925 2086 ad2c17e00f2621fcaa7ef47d3c82ba62 ""
+  "main.tex" 1562051924 22592 31254514e69bfdc6e2eb3f55ff4fd60b ""
   "onkoron.sty" 1560378068 6464 7a3a261bb922b601e14336bd36fd51ef ""
   (generated)
+  "main.log"
   "main.aux"
   "main.dvi"
-  "main.log"
