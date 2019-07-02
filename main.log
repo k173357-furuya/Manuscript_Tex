@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.11.9)  2 JUL 2019 16:18
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.11.9)  2 JUL 2019 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,8 +256,8 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 
 ]
-File: image/danger_result.png Graphic file (type bmp)
-<image/danger_result.png>
+File: image/danger_result.eps Graphic file (type eps)
+<image/danger_result.eps>
 
 Overfull \hbox (2.84528pt too wide) in paragraph at lines 173--174
  [] 
@@ -266,8 +266,8 @@ Overfull \hbox (2.84528pt too wide) in paragraph at lines 173--174
 
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
-File: image/speed_result.png Graphic file (type bmp)
-<image/speed_result.png>
+File: image/speed_result.eps Graphic file (type eps)
+<image/speed_result.eps>
 
 Overfull \hbox (2.84528pt too wide) in paragraph at lines 184--185
  [] 
@@ -277,12 +277,12 @@ Overfull \hbox (2.84528pt too wide) in paragraph at lines 184--185
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3603 strings out of 493237
- 52297 string characters out of 6144379
+ 3601 strings out of 493237
+ 52260 string characters out of 6144379
  137881 words of memory out of 5000000
  7551 multiletter control sequences out of 15000+600000
  19178 words of font info for 90 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  44i,7n,42p,976b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (3 pages, 15692 bytes).
+Output written on main.dvi (3 pages, 15676 bytes).

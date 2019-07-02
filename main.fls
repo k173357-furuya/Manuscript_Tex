@@ -116,9 +116,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT main.dvi
-INPUT image/danger_result.png
-INPUT extractbb -B cropbox -O image/danger_result.png
-INPUT image/speed_result.png
-INPUT extractbb -B cropbox -O image/speed_result.png
+INPUT image/danger_result.eps
+INPUT image/danger_result.eps
+INPUT image/speed_result.eps
+INPUT image/speed_result.eps
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT main.aux
